@@ -1,0 +1,101 @@
+
+/* Typography */
+
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+/*font-family: 'Quicksand', sans-serif;*/
+
+
+/* // End typography */
+
+
+/*	Resets
+	------	*/
+
+html,body,div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img,ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figure, figcaption, hgroup, menu, footer, header, nav, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; }
+
+ul{list-style: none; } 
+article, aside, canvas, figure,figure img, figcaption, hgroup, footer, header, nav, section, audio, video {display: block;}
+
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after { content: ''; content: none; }
+table{border-collapse: collapse; border-spacing: 0; }
+b, strong { font-weight: bold; }
+[type="checkbox"], [type="radio"] { box-sizing: border-box; padding: 0; }
+[type="search"] { -webkit-appearance: textfield; outline-offset: -2px; }
+[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+::-webkit-file-upload-button {-webkit-appearance: button; font: inherit;}
+
+.clear:after{content:".";display:block;clear:both;visibility:hidden;line-height:0; height:0; font-size: 0;}
+a img{border:0; border-style: none; }
+a, input, select, textarea{outline:none;}
+img{width: auto; height: auto; max-width: 100%; vertical-align: bottom; border-style: none;}
+
+/* Selection colours (easy to forget) */
+img::selection 		{background: transparent;}
+img::-moz-selection	{background: transparent;}
+a{text-decoration: none; display: inline-block;}
+
+input[type='number']{-moz-appearance:textfield;}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{-webkit-appearance: none;}
+input::-moz-focus-inner{border:0; padding: 0; }
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {display: none; }
+input:required{box-shadow:none;}
+input::-moz-focus-inner{box-shadow:0 0 0px transparent;}
+button{padding: 0;}
+/*		Default Layout 
+-------------------------------------------------------------------------------
+*/
+
+/*
+
+Font property css
+
+font: font-style font-variant font-weight font-size/line-height font-family|caption|icon|menu|message-box|small-caption|status-bar|initial|inherit;
+
+*/
+
+body{background: #F5F6FA; -webkit-text-size-adjust: 100%; -moz-text-size-adjust:100%; -moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased; overflow-x: hidden; overflow-y:auto; font-family: 'Quicksand', sans-serif; font-size: 14px; letter-spacing: normal; font-weight: 400;}
+
+*{-webkit-box-sizing: border-box;-moz-box-sizing:border-box; box-sizing: border-box;}
+
+
+/* Global style */
+h1, h2, h3, h4, h5, h6, p{margin: 0 0 15px;}
+h1{font-size: 55px; line-height: 55px;}
+h2{font-size: 30px; line-height: 35px;}
+h3{font-size: 25px; line-height: 30px;}
+h4{font-size: 20px; line-height: 25px;}
+
+span{}
+button{padding: 0;}
+dfn, address, em{font-style: normal;}
+label, input[type="submit"], button{cursor: pointer;}
+button:focus{outline: none;}
+
+.container, .md-container{max-width: 800px; margin: 0 auto; clear: both; padding: 0 20px}
+
+.md-container{max-width: 1200px; padding: 0 20px;}
+
+
+section, footer, header, .main-wrap{float: left; width: 100%; position: relative;}
+
+
+h1, h2, h3, h4, h5, h6, p{margin-top: 20px; float: left; width: 100%}
+h1, h2{text-align: center}
+li{margin-top: 10px; float: left; width: 100%}
+.main-container figure{margin-top: 30px; float: left; width: 100%}
+.main-container figure img{width: 100%}
+
+
+
+
+
+
+
+
